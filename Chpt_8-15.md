@@ -17,3 +17,15 @@ In a function,
 >>   }
    
    
+## exercise 12
+
+**If else-if, else and booliean
+
+## exercise 13
+
+**Switch statement
+
+> The *switch-statement* is actually entirely different and is really a "jump table".Instead of random boolean
+expressions, you can only put expressions that result in integers, and these integers are used to calculate jumps
+from the top of the switch to the part that matches that value. 
+
