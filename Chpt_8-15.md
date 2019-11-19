@@ -7,7 +7,7 @@ On the variable, array, looping concept
 In a function, 
 
 >> #include<stdio.h> 
-
+>>
 >> int main(int argc, char *argv[])
 >> {
 >>
