@@ -19,14 +19,13 @@ Here I got the first 4 chapters:
 
 
 From chapter 5-7
-
-	We get an idea on, what a typical program structure is , what is the variable (types), how to declare and assign value to them,  by using simple program.
-
-	***C is all about the size and location of pieces of memory and what you do with them.
-
-     Sizeof() is a function to find how big something is.
-
-	***To C, a "character" is just an integer. It’s a really small integer, but that’s all it is. This means you can do math on them, and a lot of software does just that, for good or bad.
+>
+We get an idea on, what a typical program structure is , what is the variable (types), how to declare and assign value to them,  by using simple program.
+>
+C is all about the size and location of pieces of memory and what you do with them.
+>
+Sizeof() is a function to find how big something is.
+To C, a "character" is just an integer. It’s a really small integer, but that’s all it is. This means you can do math on them, and a lot of software does just that, for good or bad.
 
 >
 l7@l7-virtual-machine:~/l7_learn_C/code$ ./ex9
