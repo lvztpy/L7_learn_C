@@ -28,7 +28,7 @@ From chapter 5-7
 
 	***To C, a "character" is just an integer. It’s a really small integer, but that’s all it is. This means you can do math on them, and a lot of software does just that, for good or bad.
 
-***********************************************************************
+>
 l7@l7-virtual-machine:~/l7_learn_C/code$ ./ex9
 numbers: 0 97 -609393408 -133402676
 name each: a    #
@@ -45,5 +45,5 @@ l7@l7-virtual-machine:~/l7_learn_C/code$
 
 
 
-      ***There’s also two syntaxes for doing a string: char name[4] = {'a'} on line 6 vs. char *another = "name"on line 44. The first one is less common and the second is what you should use for string literals like this.
+There’s also two syntaxes for doing a string: char name[4] = {'a'} on line 6 vs. char *another = "name"on line 44. The first one is less common and the second is what you should use for string literals like this.
 
