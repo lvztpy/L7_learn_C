@@ -17,10 +17,10 @@
 And I believe these three books are classical, if I go through with them , I will be a good programmer finally.
 
 Here I got the first 4 chapters:
-	I’ve made some set-ups or we can call them tools, 1)make (Makefile), 2)Valgrind, they helps a lot. Automate things.
+I’ve made some set-ups or we can call them tools, 1)**make (Makefile)**, 2)**Valgrind**, they helps a lot. Automate things.
 
 
-## From chapter 5-7
+## From chapter 6-7
 >
 We get an idea on, what a typical program structure is , what is the variable (types), how to declare and assign value to them,  by using simple program.
 
