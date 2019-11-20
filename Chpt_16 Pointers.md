@@ -17,3 +17,20 @@ A pointer gives you raw, direct access to a block of memory so you can work with
 >4. Complex scanning of chunks of memory such as converting bytes off a network socket into data structures
 >or parsing files.
 
+
+## The Pointer Lexicon
+
+>**type** ***ptr** "a pointer of type named ptr"
+
+>***ptr** "the value of whatever ptr is pointed at"
+
+>***(ptr + i)** "the value of (whatever ptr is pointed at plus i)"
+
+>**&thing** "the address of thing"
+
+>**type** ***ptr = &thing** "a pointer of type named ptr set to the address of thing"
+
+>**ptr++** "increment where ptr points"
+
+
+
