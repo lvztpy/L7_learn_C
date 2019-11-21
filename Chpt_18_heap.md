@@ -34,3 +34,24 @@ DESCRIPTION
 
 The main concept of this chapter is to introduce two ways of allocat memory: **heap** and **stack**.
 
+## Pointer to structure
+
+You can define pointers to structures in the same way as you define pointer to
+any other variable:
+
+*struct Books *struct_pointer;
+
+Now, you can store the address of a structure variable in the above-defined
+pointer variable. To find the address of a structure variable, place the ‘&’
+operator before the structure's name as follows:
+
+*struct_pointer = &Book1;
+
+
+To access the members of a structure using a pointer to that structure, you must
+use the **->** operator as follows:
+
+*struct_pointer->title;
+
+
+
