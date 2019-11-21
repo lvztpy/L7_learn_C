@@ -11,6 +11,25 @@ if stil remains the problem, then I will go directly to the other exercise, then
 >to find out what happens when the name or address you give is greater than 512 bytes. Fix this by simply
 >forcing the last character to '\0' so that it’s always set no matter what (which is what strncpy should do).
 
+
+## strncpy
+
+strcpy, strncpy - copy a string
+
+SYNOPSIS
+       #include <string.h>
+
+       char *strcpy(char *dest, const char *src);
+
+       char *strncpy(char *dest, const char *src, size_t n);
+
+DESCRIPTION
+       The  strcpy()  function  copies the string pointed to by src, including
+       the terminating null byte ('\0'), to the buffer  pointed  to  by  dest.
+       The  strings  may  not overlap, and the destination string dest must be
+       large enough to receive the copy.  Beware  of  buffer  overruns!   (See
+       BUGS.)
+
 ## Main idea
 
 The main concept of this chapter is to introduce two ways of allocat memory: **heap** and **stack**.
