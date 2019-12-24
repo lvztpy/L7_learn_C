@@ -31,3 +31,25 @@ The programmer is the beneficiary of the verbose code.
 (strcpy copies the whole string, including the end-of-string character.)
 *strcpy(name, "Sam");*
 
+*fgets(line, sizeof(line), stdin);
+sscanf(line, format, &variable1, &variable2 . . .;*
+Here fgets reads a line and sscanf processes it.
+
+## Chapter 6 control flow branching
+
+**Major steps**
+^ Requirements
+^ Program specifications
+^ Code design
+^ Coding
+^ Testing
+^ Debugging
+^ Release
+^ Maintainance
+^ Revision and updating
+
+
+**The technique is simple: put a *printf* at the points at which you know the data is good**
+
+
+
