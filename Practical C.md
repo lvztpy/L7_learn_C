@@ -26,4 +26,8 @@ Writing down what you are going to do.
 
 The programmer is the beneficiary of the verbose code.
 
+## Chapter 5 Arrays
+
+(strcpy copies the whole string, including the end-of-string character.)
+*strcpy(name, "Sam");*
 
